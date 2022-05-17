@@ -1,12 +1,13 @@
 {
   "name": "mega-ads-back",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts",
     "start:dev": "tsnd index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -14,14 +15,18 @@
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^6.4.0",
     "mysql2": "^2.3.3",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.1",
     "@types/node": "^17.0.31",
     "@types/uuid": "^8.3.4",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
     "ts-node": "^10.7.0",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
